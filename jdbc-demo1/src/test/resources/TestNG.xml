@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="JDBC Test Suite">
+    <test name="User Login Test">
+        <parameter name="username" value="daqiao"/>
+        <parameter name="password" value="123456"/>
+        <classes>
+            <class name="JDBCTest"/>
+        </classes>
+    </test>
+</suite>
